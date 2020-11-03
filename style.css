@@ -1,0 +1,42 @@
+body{
+    /* background-color: #2b2e4a; */
+    background-color: #393e46;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* width: 80%; */
+    /* margin:auto; */
+
+}
+.intro{
+    color: #00adb5;
+    /* color: #eeeeee; */
+    width: 65%;
+    
+}
+.photo{
+    /* object-fit: contain; */
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+}
+.big__text{
+    font-weight: 500;
+    font-size: 100px;
+    font-family: 'Bungee Shade', cursive;
+    /* font-family: 'Black Ops One', cursive; */
+    
+}
+.intro__text{
+    /* color: #00adb5; */
+    font-size: 35px;
+    font-family: 'Alegreya', serif;
+    /* font-family: 'VT323', monospace; */
+}
