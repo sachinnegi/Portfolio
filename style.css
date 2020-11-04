@@ -216,6 +216,9 @@ img{
     .project__header{
         font-size: 46px;
     }
+    .project__image{
+        min-width: 90%;
+    }
 }
 @media screen and (max-width: 335px){
     .project__header{
