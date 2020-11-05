@@ -291,4 +291,11 @@ img{
     .intro__text{
         font-size: 20px;
     }
+    .button__span{
+        margin-left: 2px;
+    }
+    .photo{
+        height: 190px;
+        width: 190px;
+    }
 }
