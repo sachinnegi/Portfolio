@@ -206,6 +206,7 @@ img{
         flex-flow: column nowrap;
         align-items: center;
         justify-content: center;
+        /* text-align: left; */
     }
 }
 @media screen and (max-width: 804px){
@@ -269,8 +270,25 @@ img{
         min-width: 90%;
     }
 }
+@media screen and (max-width: 429px){
+    .photo{
+        height: 200px;
+        width: 200px;
+    }
+    .intro{
+        color: #00adb5;
+        width: 90%;
+        
+    }
+}
 @media screen and (max-width: 335px){
     .project__header{
         font-size: 35px;
+    }
+    .big__text{
+        font-size: 30px;
+    }
+    .intro__text{
+        font-size: 20px;
     }
 }
