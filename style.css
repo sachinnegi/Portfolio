@@ -66,6 +66,7 @@ img{
 .project__image{
     border-radius: 15px;
     max-width: 42%;
+    height: 280px;
     /* height: auto; */
     box-shadow: 0 6px 8px rgba(0,0,0,0.6);
     transition: all 0.5s;
@@ -97,7 +98,47 @@ img{
 }
 
 
-/* ******reponsive design*********** */
+/* slider button */
+.button_slide {
+    color: rgb(0, 179, 149);
+    border: 2px solid rgb(0, 179, 149);
+    border-radius: 0px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(0, 179, 149);
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+    
+  }
+  .button__span{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    color: rgb(0, 179, 149);
+    font-weight: 500;
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .button__span:hover {
+      color: white
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgb(0, 179, 149);
+    color: white;
+  }
+  
+
+
+/****  reponsive design    ****/
 
 @media screen and (max-width:1370px){
     .project{
@@ -191,9 +232,14 @@ img{
         height: 100%;
         min-width: 65%;
     }
-   
+    .button_slide{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 584px){
+    .welcome{
+        letter-spacing: 4px;
+    }
     .project__header{
         font-size: 60px;
         margin-top: 100px;
@@ -214,6 +260,9 @@ img{
     }   
 }
 @media screen and (max-width: 475px){
+    .project__info p{
+        font-size: 17px;
+    }
     .project__header{
         font-size: 46px;
     }
