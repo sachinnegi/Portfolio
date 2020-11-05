@@ -220,6 +220,8 @@ img{
     .project{
         flex-flow: column;
         height: 400px;
+        margin-top: 60px;
+        margin-bottom: 130px;
     }
     .project__info{
         margin-left: 0;
@@ -258,6 +260,11 @@ img{
         width:250px;
         border-radius: 50%;
     }   
+    .intro{
+        color: #00adb5;
+        width: 90%;
+        
+    }
 }
 @media screen and (max-width: 475px){
     .project__info p{
@@ -275,11 +282,7 @@ img{
         height: 200px;
         width: 200px;
     }
-    .intro{
-        color: #00adb5;
-        width: 90%;
-        
-    }
+    
 }
 @media screen and (max-width: 335px){
     .project__header{
@@ -298,4 +301,10 @@ img{
         height: 190px;
         width: 190px;
     }
+}
+hr{
+    width: 70%;
+    color: #EEEEEE;
+    display: inline-block;
+    
 }
