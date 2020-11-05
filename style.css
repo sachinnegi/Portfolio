@@ -66,7 +66,6 @@ img{
 .project__image{
     border-radius: 15px;
     max-width: 42%;
-    height: 280px;
     /* height: auto; */
     box-shadow: 0 6px 8px rgba(0,0,0,0.6);
     transition: all 0.5s;
