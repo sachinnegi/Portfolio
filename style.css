@@ -49,7 +49,7 @@ img{
     max-width: 70%;
     margin-top: 150px;
     margin-bottom: 60px;
-    height: 300px;
+    height: 270px;
     /* background-color: chartreuse; */
 }
 .left{
@@ -293,7 +293,7 @@ footer{
         max-width: 90%;
     }
     .project__image{
-        min-width: 90%;
+        min-width: 70%;
     }
     
 }
@@ -311,13 +311,13 @@ footer{
 }
 @media screen and (max-width: 475px){
     .project__info p{
-        font-size: 17px;
+        font-size: 15px;
     }
     .project__header{
         font-size: 46px;
     }
     .project__image{
-        min-width: 90%;
+        min-width: 80%;
     }
 }
 @media screen and (max-width: 429px){
