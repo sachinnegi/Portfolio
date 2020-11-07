@@ -80,7 +80,6 @@ img{
     
 }
 .project__info{
-    font-family: 'Heebo', sans-serif;
     display: flex;
     flex-flow: column;
     margin-left: 100px;
@@ -96,6 +95,7 @@ img{
   font-family: 'Lemon', cursive;
 }
 .project__info p{
+    font-family: 'Raleway', sans-serif;
     color:black;
     font-size: 18px;
     line-height: 25px;    
@@ -156,8 +156,10 @@ img{
 .button__resume:hover{
     box-shadow: inset 400px 0 0 0 rgb(20, 19, 19);
     color: #00adb5;
-    /* border-top: 3px solid #00adb5 ; */
 }
+
+
+/****** footer section *******/
 
 
 footer{
